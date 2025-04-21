@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+  background: #1c3b6f;
+  color: #fff;
+  padding: 20px;
+  width: 35%;
+}
+
+.sidebar .foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit:cover;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.sidebar h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.contact li {
+  margin-bottom: 8px;
+}
+
+.sidebar h2 {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.sidebar p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.main-content {
+  padding: 20px;
+  width: 65%;
+}
+
+.main-content h2 {
+  font-size: 18px;
+  color: #1c3b6f;
+  margin-top: 0;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+.main-content ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.main-content li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.hobbies li::before {
+  content: "\2022";
+  color: #1c3b6f;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.skills li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  white-space: pre;
+}
